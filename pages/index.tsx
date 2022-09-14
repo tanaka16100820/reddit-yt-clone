@@ -15,6 +15,7 @@ const Home: NextPage = () => {
   })
 
   const subreddits: Subreddit[] = data?.getSubredditListLimit
+  console.log(subreddits[0])
 
   return (
     <div className="my-7 mx-auto max-w-5xl">
