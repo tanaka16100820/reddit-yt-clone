@@ -16,7 +16,7 @@ function SubredditRow({index,topic}: Props) {
     last:rounded-b">
         <p>{index + 1}</p>
         <ChevronUpIcon className=" h-4 w-4 flex-shrink-0 text-green-400"/>
-        <Avatar seed={`${topic}`} />
+        <Avatar seed={topic} />
         <p className="flex-1 truncate">r/{topic}</p>
         <Link href={`/subreddit/${topic}`}>
             <div className="cursor-pointer rounded-full bg-blue-500 px-3
